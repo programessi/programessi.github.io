@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yansong Feng</title>
+  <meta name="description" content="Personal homepage of Yansong Feng.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --text: #1d2733;
+      --muted: #5d6978;
+      --border: #d9dee5;
+      --accent: #1b6ca8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 72px 0;
+    }
+
+    .profile {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 40px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 38px;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .affiliation {
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    section {
+      margin-top: 32px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        padding: 32px 0;
+      }
+
+      .profile {
+        padding: 24px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="profile">
+      <header>
+        <h1>Yansong Feng</h1>
+        <p class="affiliation">National University of Defense Technology</p>
+      </header>
+
+      <section aria-labelledby="contact">
+        <h2 id="contact">Contact</h2>
+        <p>Email: <a href="mailto:2225124316@qq.com">2225124316@qq.com</a></p>
+        <p>GitHub: <a href="https://github.com/programessi">github.com/programessi</a></p>
+      </section>
+
+      <section aria-labelledby="research">
+        <h2 id="research">Research Interests</h2>
+        <ul>
+          <li>Robotics teleoperation</li>
+          <li>Dexterous hand control</li>
+          <li>Tactile sensing and admittance grasping</li>
+          <li>Robot data collection for imitation learning</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="projects">
+        <h2 id="projects">Selected Projects</h2>
+        <p>
+          <a href="https://github.com/programessi/inspire-hand-admittance-grasp">Inspire Hand Teleoperation and Admittance Grasping</a>
+        </p>
+        <p>
+          <a href="https://github.com/programessi/h1_2_ros1_workspace">H1-2 ROS1 Teleoperation Workspace</a>
+        </p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
